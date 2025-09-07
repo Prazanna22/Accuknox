@@ -1,7 +1,9 @@
 @import "tailwindcss";
-/* small custom */
-body { @apply bg-slate-50 text-slate-800; }
 
+
+body{
+  background-color: aliceblue;
+}
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

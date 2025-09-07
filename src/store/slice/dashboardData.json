@@ -1,0 +1,57 @@
+{
+  "categories": [
+    {
+      "id": "cspm",
+      "name": "CSPM Executive Dashboard",
+      "widgets": ["cloud-accounts", "cloud-risk"]
+    },
+    {
+      "id": "cwpp",
+      "name": "CWPP Dashboard",
+      "widgets": ["namespace-alerts", "workload-alerts"]
+    },
+    {
+      "id": "registry",
+      "name": "Registry Scan",
+      "widgets": ["image-risk", "image-security"]
+    }
+  ],
+  "allWidgets": [
+    {
+      "id": "cloud-accounts",
+      "title": "Cloud Accounts",
+      "text": "Shows number of connected vs not connected accounts",
+      "categoryId": "cspm"
+    },
+    {
+      "id": "cloud-risk",
+      "title": "Cloud Account Risk Assessment",
+      "text": "Displays failed, warning, not available, and passed counts",
+      "categoryId": "cspm"
+    },
+    {
+      "id": "namespace-alerts",
+      "title": "Top 5 Namespace Specific Alerts",
+      "text": "Lists the top alerts across namespaces",
+      "categoryId": "cwpp"
+    },
+    {
+      "id": "workload-alerts",
+      "title": "Workload Alerts",
+      "text": "Shows alerts related to workloads",
+      "categoryId": "cwpp"
+    },
+    {
+      "id": "image-risk",
+      "title": "Image Risk Assessment",
+      "text": "Highlights vulnerabilities detected in images",
+      "categoryId": "registry"
+    },
+    {
+      "id": "image-security",
+      "title": "Image Security Issues",
+      "text": "Displays security issues identified in images",
+      "categoryId": "registry"
+    }
+  ]
+}

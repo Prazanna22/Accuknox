@@ -12,3 +12,6 @@ npm run dev
 
 5. Open the app in your browser at:
 http://localhost:5173
+
+6. Deployed website link:
+https://accuknox-test.netlify.app/
